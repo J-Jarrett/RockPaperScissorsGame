@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rock Paper Scissors Game JJ</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    
+    
+   
+  </head>  
+  <body>
+    <header>
+      <h1>
+        Rock Paper Scissors    
+      </h1>
+    </header>
+    
+    <div class="score-board">
+      <div class="badge" id="user-label">
+        User
+      </div>
+      <div class="badge" id="computer-label">
+        Computer
+      </div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    
+    <div class="result">
+      <p>
+        Paper covers rock. You win!
+      </p>
+    </div>
+    
+    <div class="choices">
+      <div class="choice" id="r">
+        <!--  size of image? sorted, sort of-->
+        <img src="https://cdn.glitch.com/1d363756-9c8c-43e6-a03e-27f86af787ba%2Frock%20(1).png?v=1567646861832">
+      </div>
+      <div class="choice" id="p">
+        <!--  size of image? -->
+        <img src="https://cdn.glitch.com/1d363756-9c8c-43e6-a03e-27f86af787ba%2Fpaper-200.png?v=1567646850442">
+      </div>
+      <div class="choice" id="s">
+        <!--  size of image? -->
+        <img src="https://cdn.glitch.com/1d363756-9c8c-43e6-a03e-27f86af787ba%2Fscissors%20(1).png?v=1567646856894">
+      </div>
+    </div>
+    
+    <p>
+      Make your move!
+    </p>
+        
+    
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+     <!-- import the webpage's javascript file -->
+    <script src="/app.js"></script>
+  </body>
+</html>
+
+

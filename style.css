@@ -1,0 +1,122 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Asap, helvetica, arial, sans-serif;
+  margin: 2em;
+  background: #292c34;
+}
+
+header {
+  background: white;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+header > h1 {
+  color: #e24272e;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* h1 {
+  font-style: italic;
+  color: #373fff;
+} */
+
+.score-board {
+  border: solid 3px white;
+  margin: 20px auto;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.badge {
+  background: #e2584d;
+  color: white;
+  font-size: 16px;
+  padding: 2px 10px;
+}
+
+#user-label {
+  position: absolute;
+  top: 30px;
+  left: -25px;
+}
+
+#computer-label {
+  position: absolute;
+  top: 30px;
+  right: -50px;
+}
+
+.result > p {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.choices {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+img {
+  height: 100px;
+  width: ;
+  background: transparent;
+}
+
+/* want these to be circles, perhaps need to change the images used to a square */
+.choice {
+  border: 4px solid white;
+  border-radius: 50%;
+  display: inline-block;
+/*   background-size: 100%; */
+  margin: 0 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  background: #ffff99;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background: #99ff66;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
