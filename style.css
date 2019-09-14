@@ -106,6 +106,20 @@ p {
   margin-top: 20px;
 }
 
+/* 9. Extra touches: a visual cue to whether your choice wins, loses or draws: */
+/* now go back to app.js and articulate what you want to do, ie, 'when user wins, add a class of green-glow to whichever div the user clicked on.' */
+.green-glow {
+  border: 4px solid #4dcc7d;
+  box-shadow: 0 0 10px #31b43a;
+}
+.red-glow {
+  border: 4px solid #fc121b;
+  box-shadow: 0 0 10px #d01115;
+}
+.gray-glow {
+  border: 4px solid #464647;
+  box-shadow: 0 0 10px #25292b;
+}
 
 
 
